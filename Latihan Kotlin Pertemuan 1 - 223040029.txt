@@ -1,0 +1,88 @@
+Nama : Ahmad Mulia Huda
+
+// latihan 1
+// fun main(){
+//     print("Hello, Word!")
+// }
+
+// latihan 2
+// fun main(args: Array<String>) {
+//     println(args.contentToString())
+// }
+
+
+// latihan 3 tioe data dan variabel
+// fun main(){
+//     var nama = "kotlin"
+//     println(nama)//output : kotlin
+// }
+
+// fun main(){
+//     var nama: String = "kotlin"
+//     println(nama)//output : kotlin
+// }
+
+// fun main(){
+//     var umur: Int = 25
+//     println(umur)//output : 25
+// }
+
+// latihan 3
+// fun main(){
+//     var umur: Int = 25
+//     if (umur >= 18){
+//         println("anda sudah dewasa")
+//     }else {
+//         println ("anda belum dewasa")
+//     }
+// }
+
+// fun main(){
+//     var umur = 20
+//     when (umur) {
+//         in 0..17 -> println("anda masih anak-anak")
+//         else -> println ("anda sudah dewasa")
+//     }
+// }
+
+//latihan 4
+// fun main (){
+//     for (i in 1..5){
+//         println(i)
+//     }
+// }
+
+// fun main(){
+//     //loop while
+//     var i = 1
+//     while (i <= 5) {
+//         println(i)
+//         i++
+//     }
+// }
+
+// fun main(){
+//     var i = 0 
+//     do {
+//         println(i)
+//         i++
+//     } while (i <= 5)
+// }
+
+//latihan 5
+// fun main(){
+//     greeting("kotlin")
+// }
+// fun greeting(name: String){
+//     println("Halo $name!")
+// }
+
+// latihan 6
+fun main(){
+    val greet = { name: String -> greeting(name) }
+    println(greet("Kotlin")) 
+}
+
+fun greeting(name: String){
+    println("Halo $name!")
+}
